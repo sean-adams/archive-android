@@ -53,7 +53,7 @@ fun openWebPage(uri: String?, context: Context) {
 
 @Composable
 fun About() {
-    Text(text = "A simple app to allow easily sharing any link to archive.is.")
+    Text(text = "A simple app to allow easily sharing any link to archive.is.\n\nTo use this app, select the \"Archive\" target from the share sheet when sharing a link, and the latest snapshot will open in your default browser.")
 }
 
 @Preview(showBackground = true)
